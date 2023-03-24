@@ -46,5 +46,5 @@ router.get('/demo', (req, res) => {
   ]);
 });
 
-app.use('/.netlify/server', router);
+app.use('/.netlify/runforme/server', router);
 module.exports.handler = serverless(app);
